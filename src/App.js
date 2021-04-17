@@ -1,6 +1,7 @@
 
 import './App.css';
 import React,{useState} from 'react'
+import fot from './Footer'
 
 function App() {
   const [data,setData]=useState(null)
@@ -9,10 +10,12 @@ function App() {
   }
   return (
     <div className="App">
-      <input type="text" id="first" name="firstText" onChange={getData}/>
-      <input type="text" id="copy" name="CopyText" value={data}/>
       
+      <input type="text"  onChange={getData}/>
+      <input type="text" value={data}/>
+      <fot />
     </div>
+    
   );
 }
 
