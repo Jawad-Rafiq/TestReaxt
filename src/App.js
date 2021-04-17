@@ -13,7 +13,6 @@ function App() {
       
       <input type="text"  onChange={getData}/>
       <input type="text" value={data}/>
-      <fot />
     </div>
     
   );
