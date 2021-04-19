@@ -5,7 +5,7 @@ import './index.css';
 import Reg  from './Register'
 
 
-
+//replace the app with the reg to execute the register page with making changes on app page
 ReactDOM.render(
   <React.StrictMode>
     {/* <App /> */}
